@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+
+    tools:context=".InstructionActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:text="Instructions"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="417dp"
+        android:layout_margin="30px"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1611"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Game Mode"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texatView1361"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:text="Multiple Choice"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textVassdasdiew161"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Each question has 4 choices, you can select lifelines such as, call a friend and fifty_fity. " />
+
+
+            <TextView
+                android:id="@+id/textViasdasdew1361"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:text="True Or False"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViasdasdaew161"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select the right answer, by selecting True or False. You can use call a friend lifetime in this game." />
+
+
+            <TextView
+                android:id="@+id/textView13dfd61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:text="Guess The Image"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1sdf61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Identify the picture in the box and input your answer. You can use call a friend lifetime in this game." />
+
+
+            <TextView
+                android:id="@+id/df"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:text="Find The Letter"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewdfdf161"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fill the empty space in the box with letters, you have 3 star each question, if you run out of time the game is over. If you fill correctly those boxes click submit for a new set of question." />
+
+            <TextView
+                android:id="@+id/dfdfd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:text="Game Difficulty"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViasdew161"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time is Ticking. You can select easy, average, and difficult categories. Test your speed by solving eash question with minimal time base on category selected. When time timer goes to zero the game is over." />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnMain"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_oval"
+        android:text="Back to Main"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
